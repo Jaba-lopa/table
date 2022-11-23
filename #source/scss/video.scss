@@ -1,0 +1,15 @@
+.video__videoItem {
+    video{
+        width: 100%;
+    }
+}
+
+.video__audioWrapper {
+
+    margin: 30px 0;
+
+    .video__audioItem {
+        display: flex;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,65 @@
+.section-input {
+    form {
+
+        .form__inputWrapper {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            grid-gap: 10px;
+        }
+
+        .form__item {
+            input{
+                width: 90%;
+                padding: 0 0 0 10px;
+                min-width: 250px;
+                height: 50px;
+                margin-top: 10px;
+                border: 2px solid grey;
+            }
+            input:focus {
+                outline: none;
+                border: 2px solid #000099;
+            }
+        }
+
+        .form__otherInput {
+            margin-top: 30px;
+
+            &>div:nth-child(3) {
+                margin-top: 10px;
+            }
+        }
+
+        .otherInput__radioWrapper {
+            .otherInput__radioItem {
+                padding: 10px 0 0 0;
+
+                input{
+                    border-radius: none;
+                }
+            }
+        }
+
+        .form-submit {
+            margin-top: 30px;
+            padding-bottom: 30px;
+            text-align: center;
+            button{
+                padding: 15px 50px;
+                border-radius: 10px;
+                font-size: 1.2rem;
+                background-color: #1f1f1f;
+                border: 2px solid #1f1f1f;
+                color: #fff;
+                transition: 0.3s;
+            }
+
+            button:hover {
+                background-color: #fff;
+                color: #1f1f1f;
+                border: 2px solid #1f1f1f;
+                cursor: pointer;
+            }
+        }
+    }
+}

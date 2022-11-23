@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h1,h2,h3,h4,h5,h6,li,a,p,span {
+    text-decoration: none;
+    list-style-type: none;
+    font-family: sans-serif;
+    color: black;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #efefef;
+}
+
+html {
+    font-size: 20px;
+}
